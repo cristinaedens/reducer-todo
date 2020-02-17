@@ -31,7 +31,7 @@
 h1 {
     color: whitesmoke;
     margin: 0 0 10% 0;
-    background-color: #04213f;
+    background-image: linear-gradient(to bottom, #000000, #070104, #0c030b, #0d0512, #0a0918, #0a0d1d, #071121, #031426, #04182c, #041b32, #041e39, #04213f);
     font-size: 2rem;
 }
 
