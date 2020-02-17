@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import TodoForm from "./components/TodoForm";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <h1>Welcome to my App!</h1>
+     <h1>Welcome to my ToDo List!</h1>
+     <TodoForm/>
     </div>
   );
 }
