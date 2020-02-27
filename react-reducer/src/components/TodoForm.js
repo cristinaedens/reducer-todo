@@ -26,15 +26,17 @@ const TodoForm = () => {
   return (
     <div className="form">
       <form>
-        <label htmlFor="todo">Add Todo: </label>
+        <label htmlFor="todo">Add Todo:</label>
         <input 
         id="todo"
         name="todo"
         type="text"
         value={todo}
         onChange={handleChanges}/>
+        <div className="btncontainer">
         <button className="addbtn" onClick={handleSubmit}>Add Item</button>
         <button className="removebtn" onClick={handleClear}>Delete Item</button>
+        </div>
       </form>
       <Todo id={state.id} todo={todo} dispatch={dispatch} state={state}/>
     </div>

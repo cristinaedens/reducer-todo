@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 export const initialState = [{
-  item: "Learn about reducers",
+  item: "Click item to mark complete!",
   completed: false,
   id: Date.now(),
   itemArray:[]
